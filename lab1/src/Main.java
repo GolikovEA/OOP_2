@@ -18,5 +18,10 @@ public class Main {
         String text = "fffff ab f 1234 jkjk";
         String minWord = min.find(text);
         System.out.println("Слово с минимальным количеством различных символов: " + minWord);
+
+    CountLatinWords latin = new CountLatinWords();
+        String sentence = "One two three раз два три one1 two2 123";
+        int count = latin.count(sentence);
+        System.out.println("Количество слов, содержащих только латинские буквы: " + count);
         }
     }
