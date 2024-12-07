@@ -10,9 +10,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Point point = new Point(2, 3);
+        Point point = new Point(3, 4);
         Circle circle = new Circle(point, 1);
-        circle.move(2, 3);
+        circle.move(3, 4);
         circle.setColor(Color.PURPLE);
         circle.draw();
 
