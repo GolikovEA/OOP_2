@@ -11,19 +11,19 @@ public class Triangle extends Shape{
     }
 
     public Triangle(){}
-    public Triangle(Point point1, Point point2, Point point3, Color color) /*throws Exception*/{
+    public Triangle(Point point1, Point point2, Point point3, Color color) throws Exception{
         pointA = point1;
         pointB = point2;
         pointC = point3;
-        //validate();
+        validate();
         setColor(color);
     }
 
-    public Triangle(Point point1, Point point2, Point point3) /*throws Exception*/{
+    public Triangle(Point point1, Point point2, Point point3) throws Exception{
         pointA = point1;
         pointB = point2;
         pointC = point3;
-        //validate();
+        validate();
     }
 
     public void setPointA(Point point){

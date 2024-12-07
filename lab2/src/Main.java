@@ -16,6 +16,9 @@ public class Main {
         circle.setColor(Color.PURPLE);
         circle.draw();
 
+        Triangle asd = new Triangle(new Point(2,3), new Point(1, 1), new Point(3, 4));
+        asd.draw();
+
         List<Shape> list = new ArrayList<>();
         list.add(new Triangle(new Point(0, 0), new Point(0, 4), new Point(4, 0), Color.RED));
         list.add(new Circle(new Point(3, 3), 2, Color.WHITE));
