@@ -1,5 +1,3 @@
-package colors;
-
 public enum Color {
     TRANSPARENT,
     RED,
@@ -9,5 +7,5 @@ public enum Color {
     WHITE,
     BLACK,
     YELLOW,
-    BROWN
+    BROWN;
 }
